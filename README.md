@@ -36,7 +36,7 @@ python app.py
 
 Upon launching the loan qualifier application you will be greeted with the following prompts.
 
-![execute application](img1.PNG)
+![execute application](./img1.png)
 
 ---
 
