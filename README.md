@@ -1,22 +1,29 @@
-# Loan Qualifier Tool
+# Loan Qualifier
 
-This tool gives the user the ability to evaluate whether one qualifies for the available loans based on a number of parameters used in the commercial banking industry. 
+The purpose of this application is to determine if an applicant qualifies for a list of loans based on the applicant input in the command line interface. If the applicant doesn't qualify for a loan, the application will say so. The application will ask the user if they want to save a list of qualifying loans in a .csv file.
 
 ---
 
 ## Technologies
 
-This is a python command-line interface application which uses python 3.7 along with the FIre and Questionary packages.
+This project leverages python 3.9 with the following packages:
+
+* [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entry-point.
+
+* [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
 
 ---
 
 ## Installation Guide
-Install the following dependencies:
-pip install fire
-pip install questionary
-Run the python application app.py
 
+Before running the application first install the following dependencies.
+
+```
+ pip install fire
+ pip install questionary
+```
 ---
+
 
 ## Usage
 
@@ -29,7 +36,7 @@ python app.py
 
 Upon launching the loan qualifier application you will be greeted with the following prompts.
 
-![Loan Qualifier Prompts](Images/loan_qalifier.png)
+![execute application](img1.PNG)
 
 ---
 
